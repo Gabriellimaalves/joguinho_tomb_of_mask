@@ -250,7 +250,7 @@ main:
 	; Apaga todos os caracteres da tela	
 	call ApagaTela
 
-	call ImprimeBattleCity
+	call ImprimeTombOfMask
 
 	call ImprimeTelaInicial
 
@@ -1042,7 +1042,7 @@ ApagaTela:
 
 ;========================================================;
 ;                     IMPRIME BATTLE CITY      
-ImprimeBattleCity:
+ImprimeTombOfMask:
 	; Esta é uma função wrapper, não precisa salvar/restaurar seus parâmetros
 	loadn r1, #tombofmaskLinha0
 	loadn r2, #256 ; cor = Marrom
